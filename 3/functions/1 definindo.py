@@ -1,8 +1,7 @@
-def nome_funcao(possivel_parametro):
-    print(f"Este é o parametro passado: {possivel_parametro}")
+def funcao_printadora():
+    print(f"Esta funão printou uma mensagem!")
 
-print("Chamando Função: ")
-nome_funcao(12) # Funções só podem ser chamadas uma vez que definidas
 
-# Resposta -> Este é o parametro passado: 12
+funcao_printadora(12) 
+# Resposta -> Esta funão printou uma mensagem
 
